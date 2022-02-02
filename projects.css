@@ -1,0 +1,191 @@
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox]{
+  -ms-transform: scale(1.5);/*Internet Explorer*/
+  -moz-transform: scale(1.5);/*Firefox*/
+  -webkit-transform: scale(1.5);/*Safari and Chrome*/
+  -o-transform: scale(1.5);/*Opera*/
+  transform: scale(1.5);
+  padding: 10px;
+}
+
+input[type=file]{
+  transform: scale(1.2);
+  margin: 0px 15px 20px 23px;
+  width: 180px;
+}
+
+input[type=submit]{
+  transform: scale(1.2);
+  margin: 0px 0px 0px 10px;
+}
+
+input[type="datetime-local"]{
+     width: 180px;
+}
+
+textarea{
+  min-width: 100px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button_add {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5em;
+  margin-right: 50px;
+}
+
+.button_remove {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5em;
+}
+
+.upload_image {
+  background-color: #800080;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5em;
+}
+
+.button_submit {
+  background-color: #008CBA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5em;
+}
+
+.button_open {
+  background-color: #008CBA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5em;
+}
+
+.button_export {
+  background-color: #808080;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5em;
+  float: right;
+}
+
+.button_download {
+  background-color: #708090;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  font-size: 1.5em;
+  float: right;
+  margin-right: 50px;
+}
+
+.export_text {
+  background-color: #ccddff;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 150px;
+  font-size: 1.5em;
+  float: right;
+}
+
+.button_add:hover {
+  opacity: 0.8;
+}
+
+.button_remove:hover {
+  opacity: 0.8;
+}
+
+.upload_image:hover {
+  opacity: 0.8;
+}
+
+.button_submit:hover {
+  opacity: 0.8;
+}
+
+.button_open:hover {
+  opacity: 0.8;
+}
+
+.button_export:hover {
+  opacity: 0.8;
+}
+
+.button_download:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, tr {
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+
+th, td, tr {
+  padding: 5px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
